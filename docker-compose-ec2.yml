@@ -1,0 +1,10 @@
+version: '3'
+services:
+  frontend:
+    image: markwanys/portfolio-frontend:v1.0.0
+    ports:
+      - "3000:3000"
+  backend:
+    image: markwanys/portfolio-backend:v1.0.0
+    ports:
+      - "8000:8000"
